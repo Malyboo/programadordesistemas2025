@@ -1,0 +1,158 @@
+body {
+    /* cor de fundo */
+    background-color:rgb(186, 245, 194);
+    background-image: url(https://i.gifer.com/HLY2.gif);
+    background-size: cover;
+    /* cor da letra */
+    color:rgb(255, 255, 255);
+    /* alinhamento de texto */
+    text-align: center;
+    /*trocando a fonte*/
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+section {
+    /* cor de fundo */
+    background-color:rgba(0, 255, 13, 0.137);
+    /* largura*/
+ max-width: 1100px;
+    /*centralizar card*/
+    margin: auto;
+    /* arredondar bordas */
+    border-radius: 15px;
+    /* espaçamento interno */
+    padding: 2;
+    /* espaçamento externo */
+    margin-bottom: 15px;
+    /* sombra */
+    box-shadow: 2px 2px 7px black;
+    /* espaçamento borda baixo */
+    padding-bottom: 10px;
+}
+section:hover{
+    /* cor de fundo */
+    background-color: rgb(224, 238, 190);
+    /* tempo de transição */
+    transition: 1s;
+    /* tamanho de fonte - aumentar */
+    font-size: 17px;
+
+}
+ul{
+    /*estilo de lista desativado */
+    list-style: none;
+    /*alinhar texto a esquerda*/
+    text-align: left;
+}
+#perfil{
+    width: 600px;
+    border-radius:  15px;
+    border: 2px solid gray;
+}
+#perfil2{
+    width: 600px;
+    border-radius: 15px;
+    filter: grayscale(75%);
+}
+
+.links1{
+    /* deciração de texto desativada */
+    text-decoration: none;
+    color: blue;
+}
+.links2{
+    /* deciração de texto desativada */
+    text-decoration: none;
+    color: mediumvioletred;
+}
+.links3{
+    /* deciração de texto desativada */
+    text-decoration: none;
+    color: cornflowerblue;
+}
+.links4{
+    /* deciração de texto desativada */
+    text-decoration: none;
+    color: orange;
+}
+.links5{
+    /* deciração de texto desativada */
+    text-decoration: none;
+    color: green;
+}
+.links1:hover, .links2:hover, .links3:hover, .links4:hover, .links5:hover{
+    font-weight: bold;
+}
+
+.menu{
+    /*cor de fundo*/
+    background-color: rgba(51, 255, 0, 0.301);
+    /*alinhamento de texto*/
+    text-align: left;
+    /*espaçamento interno*/
+    padding: 10px;
+    /*cor da letra*/
+    color: white;
+    /*margem abaixo*/
+    margin-bottom: 15px;
+    display: flex;
+    gap: 10px;
+    justify-content: center; /*flex-start flex-end center space-between space-around space-evenly;*/
+    align-items: center;
+}
+
+.menu ul{
+    margin: 0px;
+}
+
+.menu ul li{
+    /*colocar em linha e lado a lado*/
+    display: inline-block;
+    padding: 10px;
+    
+}
+.menu ul li a{
+    /*cor da letra*/
+    color: white;
+    /*desativar traço em baixo*/
+    text-decoration: none;
+}
+
+footer{
+    background-color: rgba(51, 255, 0, 0.301);
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    padding: 40;
+    box-shadow: 2px 2px 10px rgb(255, 255, 255);
+}
+
+.celular{
+    /* desaparece icone do menu */
+    display: none;
+}
+
+/*configuração de css para celular/tablet */
+@media(max-width: 1050px){
+    section{
+        font-size: 15px;
+    }
+
+    .celular{
+        /* aparecer a lista do menu */
+        display: block;
+    }
+    .menu ul{
+        display: none;
+    }
+
+    ul.mostrarMenu{
+        /* faz aparecer a lista do menu */
+        display: inline-block;
+    }
+    .menu ul li{
+        width: 100%;
+        /* border: 1px solid white; */
+        margin: 3px;
+        border-radius: 10px;
+    }
+}
