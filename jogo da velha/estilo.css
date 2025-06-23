@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=LXGW+Marker+Gothic&family=Noto+Sans+JP:wght@100..900&display=swap');
+
+body{
+     font-family: "LXGW Marker Gothic", sans-serif;
+}
+.quadrado{
+    width: 200px; /*largura do quadrado*/
+    height: 200px; /*altura do quadrado*/
+    text-align: center; /* centralizar*/
+    font-size: 150px; /*tamanho da letra*/
+    border-radius: 15px; /*arredondar*/
+    background-color: #0dc6cc;
+    color: rgb(255, 255, 255);
+}
+.painel{
+    background-color: rgb(57, 17, 109);
+    width: 1000px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
+
+.jogo{
+    margin-left: auto;
+    margin-right: auto;
+}
