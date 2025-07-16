@@ -17,4 +17,26 @@
     font-size: 22px;
 }
 
+.menu-item:hover{
+    color: rgb(255, 145, 0);
+}
 
+.fundoLogin{
+    background-color: rgb(17, 26, 70);
+}.painel{
+    background-color: beige;
+    width: 350px;
+    height: 350px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 20px;
+    color: blueviolet;
+    padding: 15;
+}
+
+.cabecalho{
+    color: rgb(17, 26, 70);
+    text-align: center;
+    font-size: 40px;
+
+}
