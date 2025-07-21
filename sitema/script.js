@@ -1,3 +1,10 @@
+let table = new DataTable('#tabela', {
+    // options
+    language: {
+        url: 'https://cdn.datatables.net/plug-ins/2.3.2/i18n/pt-BR.json',
+    },
+});
+
 document.getElementById("toggleSenha").addEventListener("click", function () {
     const senha = document.getElementById("senha");
     const icone = document.getElementById("iconeOlho");
@@ -11,16 +18,6 @@ document.getElementById("toggleSenha").addEventListener("click", function () {
         icone.classList.remove("fa-eye-slash");
         icone.classList.add("fa-eye");
     }
-});
-
-1
-2
-3
-let table = new DataTable('#tabela', {
-    // options
-    language: {
-        url: 'https://cdn.datatables.net/plug-ins/2.3.2/i18n/pt-BR.json',
-    },
 });
 
 
